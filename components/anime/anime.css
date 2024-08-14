@@ -1,0 +1,67 @@
+.anime {
+  animation: opacity 1 1s ease;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+.anime .poster img {
+  border-radius: 20px;
+  aspect-ratio: 1/1.4;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.anime .name-type {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.anime .name-type .name {
+  text-transform: capitalize;
+  font-size: 17px;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  max-width: 150px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.anime .name-type .type {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.anime .details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.anime .details .episodes,
+.anime .details .score {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+
+.anime .details .episodes span,
+.anime .details .score span {
+  font-weight: 700;
+}
+
+.anime .details .score span {
+  color: #FFAD49;
+}

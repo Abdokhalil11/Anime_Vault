@@ -1,0 +1,15 @@
+.animes {
+  margin-top: 50px;
+}
+
+.animes h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.animes .animes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
